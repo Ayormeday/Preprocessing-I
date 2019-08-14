@@ -137,6 +137,17 @@ body {
 html {
   font-size: 62.5%;
 }
+.container {
+  max-width: 900px;
+  background-color: white;
+  margin: 0 auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  text-decoration: none;
+}
 tr {
   border: 1px solid black;
 }
