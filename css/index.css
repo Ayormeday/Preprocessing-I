@@ -146,11 +146,18 @@ header nav {
   display: flex;
   justify-content: space-around;
   font-size: 2rem;
+}
+header nav a {
   text-decoration: none;
 }
 .top-content {
   background-color: #80808059;
   padding: 10rem 0;
+  background-image: url("/img/proper\ image.jfif");
+  background-repeat: no-repeat;
+}
+.container-2 {
+  background: red;
 }
 .top-content h1 {
   font-size: 5rem;
@@ -185,6 +192,9 @@ button {
 }
 .middle-content-p {
   font-size: 2rem;
+}
+.skill {
+  padding-top: 2rem;
 }
 tr {
   border: 1px solid black;
